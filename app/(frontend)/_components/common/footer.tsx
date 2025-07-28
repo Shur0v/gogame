@@ -3,7 +3,9 @@ import Link from "next/link"
 
 export default function Footer() {
   return (
-    <footer className="w-full px-4 sm:px-6 md:px-8 lg:px-16 xl:px-28 pt-20 pb-6 bg-[#060606]">
+    <div className="w-full bg-[#060606]">
+        <div className="max-w-[1200px] mx-auto">
+        <footer className="w-full px-4 sm:px-6 md:px-8 pt-20 pb-6">
       <div className="flex flex-col lg:flex-row justify-between items-start gap-12 lg:gap-0">
         {/* Logo and Contact Section */}
         <div className="w-full max-w-md lg:w-80 lg:max-w-none mx-auto lg:mx-0 space-y-6 text-center lg:text-left">
@@ -102,5 +104,8 @@ export default function Footer() {
         </div>
       </div>
     </footer>
+        </div>    
+    </div>
+
   )
 }
