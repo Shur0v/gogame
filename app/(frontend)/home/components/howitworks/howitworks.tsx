@@ -4,7 +4,7 @@ import Image from "next/image"
 
 export default function HowItWorks() {
   return (
-    <div className="w-full h-auto py-12 md:py-24 flex flex-col justify-start items-center gap-8 md:gap-12">
+    <div className="w-full h-auto py-12 md:py-24 flex flex-col justify-start items-center gap-8 md:gap-12 max-w-[1200px] mx-auto">
       <div className="w-full flex flex-col xl:flex-row justify-start items-start xl:items-center gap-4 md:gap-6 xl:gap-24 px-4 xl:px-0">
         <div className="w-full xl:w-[533px]">
           <span className="text-zinc-950 text-3xl md:text-4xl xl:text-5xl font-semibold font-poppins leading-tight xl:leading-[57.60px]">
