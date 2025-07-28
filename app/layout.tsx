@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Poppins } from "next/font/google";
 import "./globals.css";
 import Menu from "./(frontend)/_components/common/menu";
+import Footer from "./(frontend)/_components/common/footer";
 
 const inter = Inter({
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
@@ -32,6 +33,7 @@ export default function RootLayout({
       >
         <Menu />
         {children}
+        <Footer />
       </body>
     </html>
   );
